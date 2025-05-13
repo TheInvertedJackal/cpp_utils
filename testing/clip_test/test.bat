@@ -1,0 +1,1 @@
+clip_test < input.txt > output.txt

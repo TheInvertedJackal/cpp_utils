@@ -1,0 +1,1 @@
+g++ test.cpp ../clip/clip.cpp -o clip_test

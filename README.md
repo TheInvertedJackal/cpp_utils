@@ -25,6 +25,10 @@ An in-code solution for benchmarking a given piece of code and sending it
 
 A simple logger for logging error and other data to a file for later review. Helps with console output and traceability.
 
+## Testing
+
+There are tests for each of the given libraries that will be developed with time. All tests are held in the `testing` folder.
+
 ## Future Plans
 _Any data here will relate to future plans or any given versions for the future._
 

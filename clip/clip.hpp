@@ -82,8 +82,27 @@ int get_int_default(std::string prompt, int default_val);
 
 /**
  * Gets a string from the user
+ * Can get and return empty strings
+ */
+std::string get_string_raw(std::string prompt);
+
+/**
+ * Gets a string from the user
+ * Forces them to give a non empty answer.
  */
 std::string get_string(std::string prompt);
+
+/**
+ * Gets a string from the user
+ * If they enter a blank stirng an error is thrown
+ */
+std::string get_string_error(std::string prompt);
+
+/**
+ * Gets a string from the user
+ * If they enter a blank string a default value is used instead
+ */
+std::string get_string_default(std::string prompt, std::string default_val);
 
 }
 
